@@ -7,3 +7,4 @@ systemctl start httpd
 systemctl enable httpd
 echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 echo "<h1>Testing git</h1>"
+echo "<h1>Testing git with newer commit</h1>"
